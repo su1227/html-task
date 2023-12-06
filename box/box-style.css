@@ -1,0 +1,16 @@
+@charset "utf-8";
+img{
+ width: 100%;
+}
+.item{
+    width: 100px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    background-color: aquamarine;
+
+}
+.box{
+    display: flex;
+    background-color: aqua;
+}
