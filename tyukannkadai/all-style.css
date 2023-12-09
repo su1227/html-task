@@ -1,0 +1,40 @@
+header ul +li{
+    border-left: 2px solid #00552e;
+}
+.breadcrumbs{
+    list-style: none;
+    display: flex;
+}
+.breadcrumbs li::after{
+    content: ">";
+    padding: 0 0.5rem;
+}
+.breadcrumbs li:last-child::after{
+    content: "";
+}
+.breadcrumbs li a:link{
+    color: aqua;
+}
+.breadcrumbs li a:visited{
+    color: blue;
+}
+.breadcrumbs li a:hover{
+    text-decoration: none;
+}
+.background {
+    background-image: url(img/images\ \(7\).jpg);
+    background-position: center;
+}
+
+.logo {
+    text-align: center;
+    background-color: chocolate(0,0,0,0.26);
+}
+
+header img {
+    width: 30rem;
+    display: inline-block;
+}
+html{
+    background-color: orangered;
+}
