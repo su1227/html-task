@@ -1,0 +1,57 @@
+/* メインとなるPC用のレイアウトと、各デバイスの共通レイアウトを記述 */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+      background-color: #3498DB;
+  }
+  
+  p{
+      background-color: aliceblue;
+      padding: 5px;
+      width: 50%;
+  }
+  
+  img{
+      object-fit: contain;
+  }
+  
+  .content{
+      display: flex;
+  }
+@media screen and (min-width: 961px) {
+    body{
+        background-color: aqua;
+    }
+    /*ここに適応するCSSを記述*/
+}
+@media screen and (min-width: 429px) and (max-width: 960px) {
+    body{
+        background-color: blue;
+    }
+    p{
+        width: 80%;
+    }
+    img{
+        width: 20%;
+    }
+    /*ここに適応するCSSを記述*/
+}
+@media screen and (min-width: 428px) {
+    body{
+        background-color: blueviolet;
+    }
+    .content{
+        flex-direction: column;
+    }
+    p{
+
+    
+        width: 100%;
+    }
+    
+
+    /*ここに適応するCSSを記述*/
+}

@@ -1,0 +1,53 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+#index{
+    background-image: url(img/top_slide_01\ \(1\).jpg);
+    }
+    .main-nav{
+        display: flex;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        margin-top: 100px;
+        list-style: none;
+        color: aliceblue;
+    }
+    header nav li + li{
+        border-right:50px solid ;
+    }
+    .main-nav{
+        display: flex;
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        margin-top: 100px;
+        list-style: none;
+        color:tomato;
+    }
+    .main-nav li{
+        margin-left: 36px;
+    }
+    .main-nav a:hover{
+        color:red;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .wrapper{
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 4px;
+    }
+    #home{
+        background-image: url(img/top_slide_01\ \(1\).jpg);
+        min-height: 100vh;
+        background-attachment: fixed; 
+    background-attachment: scroll; 
+    }
+    #home .page-title{
+        text-align: center;
+    }
+    html{
+        background-color: tomato;
+    }
