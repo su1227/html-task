@@ -36,4 +36,8 @@ img{
 html{
     background-color: tomato;
 }
+#video{
+    background-image: url(../img/top_slide_01\ \(1\).jpg);
+    margin-bottom: 50;
+}
 
